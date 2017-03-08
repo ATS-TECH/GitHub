@@ -1,0 +1,198 @@
+/* 
+    Document   : css_veiculo
+    Created on : 02/07/2013, 15:21:30
+    Author     : eduardo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+     
+    font: bold 0.8em "Arial","Arial",sans-serif;
+    background-repeat:repeat-y;
+    background-size:auto;
+    height: auto;
+    width: 97%;
+    alignment-adjust: central;
+    
+}
+.tableax
+{
+    width: 60%;
+    float: left;
+    height: 100%;
+    border: 1px solid #CACACA;
+    background-color: #FFFFFF;
+    margin-left: 0.5%;
+}
+.tablefalhas
+{
+    width: 99%;
+    float: left;
+    height: auto;
+    border: 1px solid #CACACA;
+    background-color: #FFFFFF;
+    margin-left: 0.5%;
+}
+.contfalhas{
+    float: left;
+    height: auto;
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.5%;
+    padding-left: 0.5%;
+    margin-left: 0.5%;
+}
+.tdax
+{
+    border: 1px solid #CACACA;
+    height: 60px;
+}
+.th{
+    border: 1px solid #CACACA;
+    background-color: #CACACA;
+    height: 30px;
+}
+.iconlista{
+    width: 18px;
+    height: 25px;
+    float: left;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.icongraph{
+    width: 26px;
+    height: 25px;
+    float: left;
+    margin: 5%;
+    cursor: pointer;
+}
+root { 
+    display: block;
+}
+.applabel
+{
+    width: auto;
+    float: left;
+    height: 28px;
+    padding-top: 0px;
+    font-size: 0.8em;
+}
+.selveic
+{
+    width: auto;
+    float: right;
+    height: 28px;
+    padding-top: 0px;
+    font-size: 0.8em;
+    padding-right: 0.5%;
+}
+
+.input {
+    border: 1px solid #B4B4B4;
+    color: #003300;
+    float: right;
+    font: 100 0.8em Arial;
+    height: 20px;
+    margin-left: 0.5%;
+    padding-left: 0.5%;
+    width: 72%;
+ }
+ .input:hover {
+     border: 1px solid #B4B4B4;
+     background: #99CCFF;
+ } 
+ .seleixos {
+    border: 1px solid #B4B4B4;
+    color: #003300;
+    float: right;
+    font: 100 9pt Arial;
+    height: 20px;
+    margin-left: 0.5%;
+    padding-left: 0.5%;
+    width: 25%;
+ }
+ .seleixos:hover {
+     border: 1px solid #B4B4B4;
+     background: #99CCFF;
+ } 
+ .inputdata {
+    border: 1px solid #B4B4B4;
+    color: #003300;
+    float: right;
+    font: 100 9pt Arial;
+    height: 20px;
+    margin-left: 0.5%;
+    padding-left: 0.5%;
+    text-align: center;
+    width: 13%;
+ }
+ .inputdata:hover {
+     border: 1px solid #B4B4B4;
+     background: #99CCFF;
+ } 
+.labelresumo
+{
+    font-family: Arial;
+    font-size: 0.6em;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    width: auto;
+    height: auto;
+    color: #556B2F;
+    padding-top: 4%;
+    padding-left: 1%;
+    float: left;
+}
+ .labeltitulos
+{
+	font-family: Arial;
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	width: auto;
+	height: auto;
+	color: #556B2F;
+	padding-top: 0.5%;
+	padding-left: 0.5%;
+        float: left;
+}
+ .labeltruck
+{
+    font-family: Helvetica;
+    font-size: 27px;
+    font-variant: normal;
+        font-variant-alternates: ruby;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: normal;
+        font-variant-position: normal;
+    font-stretch: condensed;
+    width: 100%;
+    height: auto;
+    color: #556B2F;
+    padding-top: 0px;
+    padding-left: 33px;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+}
+.contitem{
+    float: left;
+    height: 30px;
+    margin-bottom: 0px;
+    width: 92%;
+    padding-top: 0px;
+}
+.corpodet{
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    width: 98%
+}
+ 
