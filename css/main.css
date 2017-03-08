@@ -1,0 +1,392 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ 
+ body {
+      font: 12px "Helvetica Neue", Helvetica, sans-serif, Montserrat;
+      line-height: 1.8;
+      color: #000000;
+      background-image: url("../images/bg_principal.jpg");
+      background-repeat: repeat-y;
+      background-size: 100%;
+}
+.divide{
+    width:90%;
+    height: 1px;
+    margin: 5px;
+     
+}
+
+.execmanu
+{
+    height: 400px; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0px;
+    left: 0.5rem;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px; /* Place content 60px from the top */
+    transition: 0.5s;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 80px;
+    
+    background-color: black;   
+    overflow-x: scroll; /* Disable horizontal scroll */
+    padding-top: 10px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    overflow-y: scroll;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    width: 15%;
+    
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.nav-side-menu{
+    height: 100%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+/*    top: 0;*/
+    left: 0;
+    background-color: white; /* Black*/
+     /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.container-high {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/bg_principal.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    transition: margin-left .5s;
+     
+  }
+
+@keyframes pagew {
+    from {width: 0;}
+    to {width: 100%;}
+    from {opacity: 0;}
+    to {opacity: 1;}
+    from {z-index: 10;}
+    to {z-index: 1;};
+}
+#page-wrapper{
+    position: relative;
+    border-radius: 10px;
+    transition: all linear 0.5s;
+/*    animation-name: pagew;
+    animation-duration: 2s;*/
+    background-color: white;
+    width: 0;
+    height: 100%;
+} 
+.pageopen{
+    width: 100%;
+}
+  .open .dropdown-menu{display:block;}
+  p {font-size: 1em;
+     text-align: left}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #1ABCEA;/* Green */
+      color: #ffffff;
+  }
+  .grid{
+      width: 100%;
+  }
+  
+  .bt-gestao
+  {
+      width: 191px;
+      max-width: 191px;
+      height: 37px;
+      padding-bottom: 5px
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .bg-5 {
+      background-color: #68696c;/* Green */
+      color: #ffffff;
+  }
+  .dropstyle{
+      width:100%;
+      margin-bottom: 1px;
+      letter-spacing: 2px;
+      font-size:0.8em;
+      padding:3px;
+      border-radius: 5px;
+      letter-spacing: 2px;
+      text-align: left;
+  }
+  .dropbut{
+      width: 15rem;
+      height: 4rem;
+      letter-spacing: 2px;
+      font-size:0.8em;
+      padding:3px;
+      border-radius: 5px;
+      letter-spacing: 2px;
+      text-align: left;
+  }
+  .bg-odo {
+      background-image: url("../images/odometro.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 300px;
+      height: 234px;
+      margin-top:2rem;
+      padding-top:8rem;
+      padding-right: 10rem;
+      font:27px Helvetica bold;
+  }
+  .inputodo{
+      width: 100px;
+      height: 30px;
+      border-radius: 8px;
+      
+  }
+  .inputress{
+      width: 300px;
+      height: 30px;
+      border-radius: 8px;
+      
+  }
+  .container-eixo {
+    padding-top: 5px;
+    width: 100%;
+    height: 78px;
+    float: left;
+    margin: 0px;
+    overflow-x: auto;
+  }
+  .container-manu {
+    padding: 5px;
+    width: 100%;
+    margin: 0px;
+    overflow-x: auto;
+  }
+  .container-pneu {
+      height: auto;
+      width: auto;
+      float: left;
+      margin: 1px;
+      overflow-x: hidden;
+      border: 0;
+      
+      padding:3px;
+  }
+  .container-eixodes {
+      padding-top: 15px;
+      width: 100px;
+      height: 50px;
+      float:left;
+      margin:0px;
+  }
+  
+  
+ .container-rule {
+    transition-property: background;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.container-rule:hover {
+  background: #e8e9ec;
+  border: 1px solid #FFFFFF;
+}
+@keyframes page {
+   
+    from {opacity: 0;}
+    to {opacity: 1;} 
+}
+#drop1
+{
+    -moz-transition: all 15s ease;
+    animation-name: page;
+    animation-duration: 15s;
+    border-radius: 8px ;
+    margin: 1rem;
+    height: auto ; 
+    padding: 1rem ;
+    position:absolute;
+     left:50%;
+    top: 50%;
+}
+.logincont
+{
+    padding: 1rem;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: white;}
+    from {opacity: 1;}
+    to {opacity: 0;}
+    from {z-index: 1;}
+    to {z-index: -1;}
+}
+.graph{
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+/* The element to apply the animation to */
+.alert-rule {
+    -moz-transition: all 7s ease;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 7s;
+    border-radius: 8px ;
+    margin: 1rem;
+    height: auto ; 
+    padding: 1rem ;
+    position:absolute;
+    left:50%;
+    top: 80%;
+    margin-left:-100px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    letter-spacing: 2px;
+    opacity: 0;
+    color: black;
+}
+.alert-rule.animated {
+  -moz-transform: scale(1.1);
+}
+.tabresumo
+{
+    width: 100%;
+    
+}
+.tabresumoth
+{
+    background-color: #CACACA;
+    color: white;
+    border: 1px solid black;
+}
+.tabresumotd
+{
+    background-color: white;
+    color: white;
+    border: 1px solid #CACACA;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

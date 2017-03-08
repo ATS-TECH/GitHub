@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+.body
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	background-image: url(images/back.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.table{
+	width: 666px;
+	height: 60px;
+	margin-left: 0;
+	padding-left: 0; 
+}
+.tablebig{
+	width: 345px;
+	height: auto;
+	margin-left: 0;
+	float: left; 
+	padding-left: 25%;
+}
+.tab2{
+	width: 167px;
+	height: 60px;
+	padding-left: 0px;
+	margin: 0px;
+	
+}
+tr{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.banner
+{
+    width:auto;
+    height:auto;
+    float:left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contlogobot
+{
+    width: 100%;
+    height: 30px;
+    float:none;
+}
+.apresenta
+{
+    float: none;
+	height: auto;
+	width: 150px;
+	padding-left: 10px;
+	padding-top: 20px;
+	margin: 0px;
+}
+.contuser
+{
+    width:120px;
+    float:left;
+    margin-top: 0;
+}
+.contlogo
+{
+    width: 167px;
+    height: 60px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000;
+}
+.contgub
+{
+    width: 250px;
+    height: 28px;
+    float: left;
+    padding-top: 26px;
+	padding-right: 10px;
+    margin: 0px;
+    background-color: #000;
+	margin-right: 10px;
+}
+.contitem
+{
+    width:100%;
+    height:80px;
+    float:left;
+	padding-top: 20px;
+	margin: 0;
+}
+.contstart
+{
+    width:120px;
+    height: 30px;
+    background-repeat:no-repeat;
+    background-image: url(images/btstart.png);
+    margin-top: 320px;
+    margin-left: 110px;
+
+    float:left;
+}
+.contlabel
+{
+    width:120px;
+    height:10px;
+    float:left;
+}
+.contlabelentrada
+{
+	width:120px;
+	height:30px;
+	float:left;
+}
+.contline
+{
+	width:150px;
+	height:239px;
+	float: none;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+.contlinelabel
+{
+	width:150px;
+ 	float: none;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 20px;
+    height: 30px;
+}
+.contimg
+{
+    width:120px;
+    height:50px;
+    padding-left:10px;
+    margin-bottom:10px;
+    padding-bottom:5px;
+    float: left;
+}
+.contmsg
+{
+    float: left;
+	height: auto;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-left: 71px;
+	padding-top: 19px;
+	width: auto;
+}
+.label
+{
+    font:Arial bold 1em;
+    color:#030;
+	width: 100%;
+	padding-top: 5px;
+}
+ 
+ .texto {
+	font-family: Arial;
+	font-size: 0.5em;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	width: auto;
+	height:auto;
+	padding-left: 8px;
+	padding-top: 5px;
+        float:none;
+        color: #000;
+}
+.textomsg {
+	font-family: Arial;
+	font-size: 0.7em;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	width: auto;
+	height:auto;
+	margin-left: 20px;
+	
+	margin-top: 5px;
+        float:none;
+        color: red;
+}
+.contmsgbanner
+{
+	width: 100%;
+	height:50px;
+	float:left;
+	margin-top: 7px;
+}
+
+.contidlabel
+{
+	width: 180px;
+	heigth: 40px;
+	float: left;
+}
+.pneuzinho
+{
+    float: left;
+    height: 55px;
+    width: 37px;	
+} 

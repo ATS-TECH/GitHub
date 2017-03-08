@@ -1,0 +1,183 @@
+
+
+.css-treeview ul,
+.css-treeview li
+{
+    padding: 0;
+    margin: 1%;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    text-align: left;
+}
+.css-treeview input
+{
+        position: absolute;
+        opacity: 0;
+}
+.css-treeview
+{
+        font: normal .8em "Helvetica", Helvetica, Sans-serif;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        width: 80%;
+}
+li#item-1-0
+{
+    float:none;
+}
+li#item-1-0-0
+{
+        color: #005100;
+        text-decoration: none;
+        margin-left: 40px; 
+}
+.css-treeview a:hover
+{
+        text-decoration: underline;
+        font-style: normal;
+        font-weight: bold;
+}
+.css-treeview input + label + ul
+{
+        margin: 0 0 0 0px;
+        padding-top: 1%;
+        padding-left: 12%;
+}
+.css-treeview li + a
+{
+        margin: 0 0 0 0px;
+        padding-top: 1%;
+        padding-left: 6%;
+}
+
+.css-treeview input ~ ul
+{
+        display: none;
+}
+
+.css-treeview label,
+.css-treeview label::before
+{
+        cursor: pointer;
+}
+
+.css-treeview input:disabled + label
+{
+        cursor: default;
+        opacity: .6;
+}
+
+.css-treeview input:checked:not(:disabled) ~ ul
+{
+        display: block;
+}
+
+.css-treeview label,
+.css-treeview label::before
+{
+   background: url("./images/icons.png") no-repeat;
+}
+.css-treeview a::before
+{
+   background: url("./images/iconscomp.png") no-repeat;
+}
+.css-treeview label,
+.css-treeview a,
+.css-treeview label::before
+{
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.css-treeview label
+{
+    background-position: 18px 0;
+        
+}
+
+.css-treeview input:checked + label::before
+{
+         
+}
+
+/* webkit adjacent element selector bugfix */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+        .css-treeview 
+        {
+                -webkit-animation: webkit-adjacent-element-selector-bugfix infinite 1s;
+        }
+
+        @-webkit-keyframes webkit-adjacent-element-selector-bugfix 
+        {
+                from 
+                { 
+                        padding: 0;
+                } 
+                to 
+                { 
+                        padding: 0;
+                }
+        }
+}
+
+root { 
+    display: block;
+}
+.labeltree {
+    color: #005000;
+    font-family: Arial;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 0px;
+    padding-top: 3%;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+}
+.corpodet{
+    padding-left: 2%;
+    padding-top: 3%;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.contitemdet {
+    float: none;
+    height: 40px;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    width: 100%;
+}
+.botaosair{
+    background-image: url("images/botaosair.png");
+    background-repeat: no-repeat;
+    float: none;
+    height: 50px;
+    margin-top: 3%;
+    width: 200px;
+}
+.input {
+    border: 1px solid #B4B4B4;
+    color: #003300;
+    float: left;
+    font: 100 0.8em Arial;
+    height: 30px;
+    margin-left: 3%;
+    margin-right: 5%;
+    padding-left: 3%;
+    text-align: right;
+    width: 95%;
+ }
+ .input:hover {
+     border: 1px solid #B4B4B4;
+     background: #99CCFF;
+ } 
